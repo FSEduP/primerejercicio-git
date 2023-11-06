@@ -1,0 +1,133 @@
+ul {
+    list-style: none;
+    list-style-position: outside;
+    color: rgba(0, 157, 149, 1);
+    padding: 15px 20px;
+    font-family: "Futura", sans-serif;
+    font-size: normal;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 18.2px;
+    box-sizing: border-box;
+    position: relative;
+    text-align: left;
+    text-size-adjust: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.one {
+    box-sizing: border-box;
+    display: list-item;
+    width: 280px;
+}
+.two {
+    box-sizing: border-box;
+    display: list-item;
+    width: 280px;
+}
+.three {
+    box-sizing: border-box;
+    display: list-item;
+    width: 280px;
+}
+.four {
+    box-sizing: border-box;
+    display: list-item;
+    width: 280px;
+}
+.five {
+    box-sizing: border-box;
+    display: list-item;
+    width: 280px;
+}
+.six {
+    box-sizing: border-box;
+    display: list-item;
+    width: 280px;
+}
+.seven {
+    box-sizing: border-box;
+    display: list-item;
+    width: 280px;
+}
+.eight {
+    box-sizing: border-box;
+    display: list-item;
+    width: 280px;
+}
+/*
+@media screen and (min-width:480px) {
+    ul {
+        background-color: red;
+        transition: all 1s linear;
+    }
+}
+*/
+.header {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-logo {
+    box-sizing: border-box;
+    display: block;
+    position: relative;
+    text-align: center;
+}
+
+
+
+.icons {
+    display:flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+.menu {
+    margin: 10px;
+}
+
+
+
+
+
+
+
+.launcher {
+    overflow: hidden;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    height: 60px;
+    background-color: #EA9FA6FF;
+    border-radius: 30px;
+    padding: 0 20px;
+    align-items: center;
+    background-attachment: scroll;
+}
+.launcher-close-icon {
+    width: 20px;
+    height: 20px;
+    aspect-ratio: auto 30 / 30;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+.launcher-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 12px;
+    flex-shrink: 0;
+    aspect-ratio: auto 30 / 30;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+.launcher-text {
+    white-space: nowrap;
+    color: white;
+    font-size: 16px;
+    font-family: Futura, sans-serif;
+}
