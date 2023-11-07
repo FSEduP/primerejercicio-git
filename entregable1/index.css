@@ -1,21 +1,44 @@
+.header {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-logo {
+    box-sizing: border-box;
+    display: block;
+    position: relative;
+    text-align: center;
+}
+
+
+/*
+El primer media no se porque no lo veo
+
+@media (max-width: 480px) {
+    header {
+        background-color: red;
+        transition: all 1s linear;
+    }
+}
+
+@media (min-width: 768px) {
+    .header {
+        display: none;
+    }
+}
+*/
 ul {
     list-style: none;
-    list-style-position: outside;
     color: rgba(0, 157, 149, 1);
-    padding: 15px 20px;
     font-family: "Futura", sans-serif;
-    font-size: normal;
-    font-weight: 400;
-    font-style: normal;
-    line-height: 18.2px;
-    box-sizing: border-box;
-    position: relative;
-    text-align: left;
-    text-size-adjust: 100%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    font-size: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
 
 .one {
@@ -47,87 +70,100 @@ ul {
     box-sizing: border-box;
     display: list-item;
     width: 280px;
+    margin-top: 20px;
 }
 .seven {
     box-sizing: border-box;
     display: list-item;
     width: 280px;
+    margin-top: 20px;
 }
 .eight {
     box-sizing: border-box;
     display: list-item;
     width: 280px;
+    margin-top: 20px;
 }
-/*
-@media screen and (min-width:480px) {
-    ul {
-        background-color: red;
-        transition: all 1s linear;
-    }
-}
-*/
-.header {
-    box-sizing: border-box;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.header-logo {
-    box-sizing: border-box;
-    display: block;
-    position: relative;
-    text-align: center;
-}
+
+
 
 
 
 .icons {
-    display:flex;
-    justify-content: flex-end;
-    align-items: flex-start;
+    color:rgba(0, 157, 149, 1);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 30px;
 }
-.menu {
-    margin: 10px;
+.icon-account {
+    margin-right: 20px;
+}
+.icon-search {
+    margin-right: 20px;
+}
+.icon-cart {
+    margin-right: 20px;
+}
+header svg {
+    width: 25px;
+    height: 25px;
 }
 
 
 
+footer {
+    display: flex;
+    justify-content: space-between;
+}
 
-
-
-
-.launcher {
-    overflow: hidden;
+.present {
     box-sizing: border-box;
     display: flex;
     justify-content: center;
+    align-items: center;
     width: 200px;
     height: 60px;
     background-color: #EA9FA6FF;
     border-radius: 30px;
     padding: 0 20px;
-    align-items: center;
-    background-attachment: scroll;
 }
-.launcher-close-icon {
+
+.present-all {
     width: 20px;
     height: 20px;
-    aspect-ratio: auto 30 / 30;
-    overflow-clip-margin: content-box;
-    overflow: clip;
 }
-.launcher-icon {
+.present-icon {
     width: 30px;
     height: 30px;
     margin-right: 12px;
-    flex-shrink: 0;
-    aspect-ratio: auto 30 / 30;
-    overflow-clip-margin: content-box;
-    overflow: clip;
 }
-.launcher-text {
+.present-text {
     white-space: nowrap;
     color: white;
     font-size: 16px;
     font-family: Futura, sans-serif;
 }
+
+
+
+
+.chat {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+button.chat-button{
+    border-radius: 30px;
+    border: 1px solid transparent;
+    height: 60px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e89ba3;
+    margin-right: 50px;
+}
+
+
+
